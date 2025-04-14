@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+.support {
+    display :flex;
+    justify-content: space-between;
+    background-color:rgb(195, 195, 195);
+    padding:10px;
+    text-align: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+ }
+.tell {
+    display:flex;
+    color: #666;
+    text-align: center;
+}
+.tell span {
+    color: #aaa;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    padding:25px;
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWRDETmANk8UWsh4WLtHx_mzsDOAKLt21BrH73G45-11r_UElmL4diP5VQLzio62DpfMmKBaCOt9SV26mrS5zZwvdXgjEf_E0hRHkZxOfi6YEjGSMmfkJe-PQXz9ZB5wtA1_QvWifep9S6bM0Y4Lq3EqSGi9bc5jxJ8Sy66rhFvj_K6JHUcPcgW5F9UxQ/s800-rw/(%20Anhpng.com)%20-%20N%E1%BB%80N%20S%C3%81CH%20(64).jpg');
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 30px;
+  padding: 5px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+
+  .search-container input {
+    
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border-radius: 30px;
+  }
+
+  .search-container .icon {
+    margin-right: 8px;
+    color: #4169E1; 
+  }
+.shopping {
+    padding:15px;
+    cursor:pointer;
+}
+.login {
+  padding:15px;
+  cursor:pointer;
+}
+nav ul {
+  display :flex;
+  gap:30px;
+  justify-content: center;
+  padding:20px;
+  background-color: #33b5e5;
+  list-style: none;
+}
+ul li a {
+  text-decoration:none ;
+  color:white
+}
+nav ul li a:hover {
+background-color:#14549c;
+padding:10px;
+}
+.letter {
+  text-align: center;
+  padding:10px;
+}
+.letter p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+.image {
+  justify-content: center;
+  text-align: center;
+  align-items: center
+}
+.section-document{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+}
+.section-document span {
+  position: relative;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(51, 42, 42); 
+  padding: 0 20px;
+}
+.section-document::before,
+.section-document::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: #302424;
+}
+
+.section-document::before {
+  margin-right: 20px;
+}
+
+.section-title::after {
+  margin-left: 20px;
+}
+.look {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding :20px;
+  max-width:1000px;
+  margin:auto;
+}
+.book-section {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+.writen h2 {
+  font-size: 22px;
+}
+.writen a {
+text-decoration: none;
+font-size: 14px;
+color:#1a73e8;
+}
+.writen {
+  display:flex;
+  justify-content: space-between;
+}
+.book-list {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.book-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  width: 280px;
+  text-align: center;
+}
+.book-card img {
+  max-width: 100%;
+  height: 250px;
+  border-radius: 8px;
+}
+.book-title {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 10px 0;
+}
+.price {
+  font-weight: bold;
+}
+.original-price {
+  text-decoration: line-through;
+  color: #888;
+  font-size: 14px;
+  margin-left: 5px;
+}
+.sold {
+  color: #333;
+  font-size: 14px;
+  padding:5px;
+}
+.stars {
+  color: gold;
+  margin: 8px 0;
+}
+.details-btn {
+  padding: 8px 16px;
+  background-color: white;
+  border: 1px solid #0066ff;
+  color: #0066ff;
+  border-radius: 5px;
+  cursor: pointer;
+}
