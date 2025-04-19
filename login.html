@@ -1,58 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css"> 
-    <link
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-    rel="stylesheet"
-  />
-<link href="fontawesome-6.2/css/brands.css" rel="stylesheet">
-<link href="fontawesome-6.2/css/solid.css" rel="stylesheet">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet" />
+    <link href="fontawesome-6.2/css/brands.css" rel="stylesheet">
+    <link href="fontawesome-6.2/css/solid.css" rel="stylesheet">
+    <title>Đăng nhập</title>
 </head>
 <style>
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        font-family: 'popins',sans-serif;
+        font-family: 'popins', sans-serif;
     }
+
     body {
         display: flex;
         justify-content: center;
         align-items: center;
         min-height: 100vh;
-        background-image: url("https://c.pxhere.com/images/e3/a0/f07b838c54c64e4d08fa7b7cedea-1584095.jpg!d");
+        background-image: url("https://marketplace.canva.com/EAE7q0IO2G0/1/0/1600w/canva-h%E1%BB%93ng-v%C3%A0-xanh-d%C6%B0%C6%A1ng-gi%C3%A1o-d%E1%BB%A5c-truy%E1%BB%81n-%C4%91%E1%BB%99ng-l%E1%BB%B1c-%C3%A1p-ph%C3%ADch-kh%E1%BB%95-ngang-mmpxFqpqYYQ.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
- 
+
     }
+
     section {
-        position : relative;
-        max-width: 4400px;
+        position: relative;
+        width: 550px;
+        height: 650px;
         background-color: transparent;
-        border:2px solid rgba(255, 255, 255, 0,5);
+        border: 2px solid rgba(255, 255, 255, 0, 5);
         border-radius: 20px;
         backdrop-filter: blur(55px);
-        display:flex;
+        display: flex;
         justify-content: center;
         align-items: center;
-        padding :2rem 3rem; 
+        padding: 2rem 3rem;
     }
+
     h1 {
         font-size: 2rem;
         color: #fff;
         text-align: center;
     }
+
     .inputbox {
         position: relative;
         margin: 30px 0;
         max-width: 310px;
         border-bottom: 2px solid #fff;
     }
+
     .inputbox label {
         position: absolute;
         top: 50%;
@@ -63,103 +67,149 @@
         transition: all 0.5s ease-in-out;
         pointer-events: none;
     }
-    input: focus ~ label,
-    input:valid ~ label {
+
+    input::focus~label,
+    input::valid~label {
         top: -5px;
     }
+
     .inputbox input {
         width: 100%;
         height: 60px;
         background: transparent;
         border: none;
-        outline:none;
-        font-size:1rem;
+        outline: none;
+        font-size: 1rem;
         padding: 0 35px 0 5px;
-        color:black;
+        color: black;
     }
+
     .inputbox ion-icon {
         position: absolute;
         right: 8px;
-        color:#fff;
+        color: #fff;
         font-size: 1.2rem;
         top: 20px;
     }
+
     .forget {
         margin: 35px 0;
         font-size: 0.85rem;
         color: #fff;
-        display:flex;
+        display: flex;
         justify-content: space-between;
     }
+
     .forget label {
-        display:flex;
+        display: flex;
         align-items: center;
     }
+
     .forget label input {
         margin-right: 3px;
     }
+
     .forger a {
-        color:#fff;
+        color: #fff;
         text-decoration: none;
         font-weight: 600;
     }
+
     .forger a:hover {
         text-decoration: underline;
     }
+
     button {
-        width :100%;
-        height:40px;
+        width: 100%;
+        height: 40px;
         border-radius: 40px;
-        background-clip: rgb(255, 255,255, 1);
+        background-clip: rgb(255, 255, 255, 1);
         border: none;
         outline: none;
         cursor: pointer;
         font-size: 1rem;
         font-weight: 600;
-        transition: all 0.4  ease;
+        transition: all 0.4 ease;
     }
+
     button:hover {
-        background-color: rgb(255, 255,255,0.5);
+        background-color: rgb(255, 255, 255, 0.5);
     }
+
     .register {
         font-size: 0.9rem;
         color: #fff;
         text-align: center;
         margin: 25px 0 10px;
     }
+
     .register p a {
         text-decoration: none;
-        color:#fff;
+        color: #fff;
         font-weight: 600;
     }
+
     .register p a:hover {
         text-decoration: underline;
+
     }
-  
+
+    input::placeholder {
+        color: #fff
+    }
 </style>
+
 <body>
     <section>
         <form>
-            <h1>Login</h1>
+            <h1>Đăng nhập</h1>
             <div class="inputbox">
                 <icon-icon name="mail-outline"></icon-icon>
-                <input type="email" placeholder ="User" >
+                <input type="email" placeholder="Tài khoản">
             </div>
             <div class="inputbox">
                 <icon-icon name="lock-open-outline"></icon-icon>
-                <input type="password" placeholder ="Password">
-            
+                <input type="password" placeholder="Mật khẩu">
+
             </div>
             <div class="forget">
 
-                <label for=""><input type="checkbox">Remember</label>
-                <a href="#">Forgot password?</a>
+                <label for=""><input type="checkbox">Ghi nhớ</label>
+                <a href="#">Quên mật khẩu?</a>
             </div>
             <button>Đăng nhập</button>
             <div class="register">
-                <p>I don't have an account <a href="#">Register</a></p>
+                <p>Bạn chưa có tài khoản?<a href="Regiter.html">Đăng ký</a></p>
             </div>
         </form>
     </section>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const form = document.querySelector("form");
+
+            form.addEventListener("submit", function (event) {
+                event.preventDefault();
+
+                const email = document.querySelector('input[type="email"]').value.trim();
+                const password = document.querySelector('input[type="password"]').value.trim();
+
+                // Lấy dữ liệu đã đăng ký
+                const registeredEmail = localStorage.getItem("registeredEmail");
+                const registeredPassword = localStorage.getItem("registeredPassword");
+
+                if (email === registeredEmail && password === registeredPassword) {
+                    alert("Đăng nhập thành công!");
+                    window.location.href = "html.html";
+                } else {
+                    alert("Sai tài khoản hoặc mật khẩu.");
+                }
+            });
+        });
+
+
+
+    </script>
 </body>
+
 </html>
