@@ -64,6 +64,14 @@ header {
   padding:15px;
   cursor:pointer;
 }
+.login a {
+  text-decoration:none ;
+  color:black;
+
+}
+nav ul li a{
+  font-size: 20px;
+}
 nav ul {
   display :flex;
   gap:30px;
@@ -71,10 +79,12 @@ nav ul {
   padding:20px;
   background-color: #33b5e5;
   list-style: none;
+  font-size: 20px;
 }
 ul li a {
   text-decoration:none ;
-  color:white
+  color:white;
+  font-size: 15px;
 }
 nav ul li a:hover {
 background-color:#14549c;
@@ -196,4 +206,164 @@ color:#1a73e8;
   color: #0066ff;
   border-radius: 5px;
   cursor: pointer;
+}
+.report {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+.word {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.word-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 280px;
+    text-align: center;
+}
+.word-card img {
+  max-width: 100%;
+  height: 150px;
+  border-radius: 8px;
+}
+.word-card span {
+  padding:5px;
+  margin-bottom: 10px;
+  
+}
+.space  {
+  padding: 0 20px;
+
+  
+}
+.project {
+  border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+ }
+ .Powerpoint {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+ }
+ .Powerpoint-card {
+  border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 280px;
+    text-align: center;
+ }
+ .Powerpoint-card img {
+  max-width: 100%;
+  height: 150px;
+  border-radius: 8px;
+ }
+ .footer {
+  background-color: #2b66af;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 20px;
+  
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #245997;
+  padding-bottom: 20px;
+  text-align: center;
+  justify-content: space-between;
+  font-size: 20px;
+  padding:10px;
+}
+
+.footer-left {
+  flex: 1;
+  min-width: 250px;
+}
+
+.logo {
+  max-width: 180px;
+  margin-bottom: 10px;
+}
+
+.agency {
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.footer-links {
+  flex: 2;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  min-width: 250px;
+  
+}
+
+.footer-links .column {
+  margin: 10px;
+}
+
+.footer-links h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.footer-links p {
+  margin: 4px 0;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  background-color: #2a5da1;
+  padding: 20px;
+  margin-top: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.footer-bottom p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.verify {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.main-document{
+  border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+.document-card{
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+.space {
+  padding:20px;
 }
