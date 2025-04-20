@@ -8,7 +8,32 @@
 </head>
 <body>
     <div class="container">
-        <h1>giỏ hàng của tôi</h1>
-    </div>
+        <header>
+           <a href="html.html"><span><h1>🛒 Giỏ hàng EDUHIGHT</h1></span></a>
+          <p>Tài liệu học tập chất lượng – Lựa chọn thông minh cho bạn</p>
+        </header>
+    
+        <main id="cart-items"></main>
+    
+        <section class="summary">
+          <h2>Tổng cộng: <span id="total">0₫</span></h2>
+          <button id="checkout-btn">Thanh toán</button>
+        </section>
+    
+        <div id="modal" class="modal">
+          <div class="modal-content">
+            <p id="payment-message"></p>
+            <button id="confirm-payment">Xác nhận</button>
+          </div>
+        </div>
+    
+        <div id="success-alert" class="alert hidden">
+          <strong>✅ Thanh toán thành công!</strong>
+          <p>Cảm ơn bạn đã mua tài liệu từ EDUHIGHT. Chúc bạn học tốt!</p>
+        </div>
+      </div>
+    
+      <footer>© 2025 EDUHIGHT. All rights reserved.</footer>
+      <script src="my_shopping_cart.js"></script>
 </body>
 </html>

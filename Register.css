@@ -125,3 +125,6 @@ button:hover {
 input::placeholder {
 color:#fff
 }
+.register span {
+    color:black;
+}

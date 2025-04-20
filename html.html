@@ -21,14 +21,15 @@
     <div class="logo">
       <h1>EDUHIGHT</h1>
     </div>
-
     <div class="search-container">
       <i class="fas fa-search icon"></i>
       <input type="text" placeholder="Tìm tài liệu...">
     </div>
-    <div class="login">
+    <div class="login" id="login-area">
       <i class="fa-solid fa-circle-user"></i>
-      <a href="login.html"><span>Đăng nhập</span></a>
+      <a href="login.html" id="login-link"><span>Đăng nhập</span></a>
+      <span id="user-greeting" style="display: none;"></span>
+      <button id="logout" style="display: none; margin-left: 10px;">Đăng xuất</button>
     </div>
     <div class="shopping">
       <i class="fa-solid fa-cart-shopping"></i>
@@ -37,12 +38,12 @@
   </header>
   <nav>
     <ul>
-      <li><a href="#">Trang chủ</a></li>
+      <li><a href="html.html">Trang chủ </a></li>
       <li> <a href="#">Tài liệu</a></li>
       <li> <a href="#">Báo cáo </a></li>
       <li> <a href="#">Đồ án </a></li>
       <li> <a href="#">Đăng Tài Liệu </a></li>
-      <li> <a href="#">Sách </a></li>
+      <li> <a href="book.html">Sách </a></li>
       <li> <a href="#">Nạp tiền </a></li>
     </ul>
   </nav>
@@ -68,7 +69,7 @@
     <div class="book-section">
       <div class="writen">
         <h2>SÁCH BÁN CHẠY</h2>
-        <a href="#">Xem tất cả </a>
+        <a href="book.html">Xem tất cả </a>
       </div>
       <div class="book-list">
 
@@ -185,8 +186,6 @@
                 <span> Giá:150.000đ</span></div>
             </span>
             <div class="sold">Đã bán: 15 bài</div>
-            <div class="stars"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
-                class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></div>
             <button class="details-btn">Thêm vào giỏ hàng</button>
           </div>
           <div class="word-card">
@@ -199,8 +198,6 @@
                 <span> Giá:250.000đ</span>
               </span></div>
             <div class="sold">Đã bán: 15 bài</div>
-            <div class="stars"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
-                class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></div>
             <button class="details-btn">Thêm vào giỏ hàng</button>
           </div>
           <div class="word-card">
@@ -213,8 +210,6 @@
                 <span> Giá: 100.000đ</span>
               </span></div>
             <div class="sold">Đã bán: 5 bài</div>
-            <div class="stars"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
-                class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></div>
             <button class="details-btn">Thêm vào giỏ hàng</button>
           </div>
         </div>
@@ -235,8 +230,6 @@
                 <span> Giá: 1.000.000đ</span>
               </span></div>
             <div class="sold">Đã bán: 5 bài</div>
-            <div class="stars"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
-                class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></div>
             <button class="details-btn">Thêm vào giỏ hàng</button>
           </div>
           <div class="Powerpoint-card">
@@ -248,8 +241,6 @@
                 <span> Giá: 1.500.000đ</span>
               </span></div>
             <div class="sold">Đã bán: 5 bài</div>
-            <div class="stars"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
-                class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></div>
             <button class="details-btn">Thêm vào giỏ hàng</button>
           </div>
           <div class="Powerpoint-card">
@@ -261,8 +252,6 @@
                 <span> Giá: 1.200.000đ</span>
               </span></div>
             <div class="sold">Đã bán: 5 bài</div>
-            <div class="stars"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
-                class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></div>
             <button class="details-btn">Thêm vào giỏ hàng</button>
           </div>
         </div>
@@ -296,5 +285,5 @@
     </footer>
   </footer>
 </body>
-
+<script src="Main.js"></script>
 </html>

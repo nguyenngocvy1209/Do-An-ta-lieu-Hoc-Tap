@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet" />
+    <style>
+          * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+.support {
+    display :flex;
+    justify-content: space-between;
+    background-color:rgb(195, 195, 195);
+    padding:10px;
+    text-align: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+ }
+.tell {
+    display:flex;
+    color: #666;
+    text-align: center;
+}
+.tell span {
+    color: #aaa;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    padding:25px;
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWRDETmANk8UWsh4WLtHx_mzsDOAKLt21BrH73G45-11r_UElmL4diP5VQLzio62DpfMmKBaCOt9SV26mrS5zZwvdXgjEf_E0hRHkZxOfi6YEjGSMmfkJe-PQXz9ZB5wtA1_QvWifep9S6bM0Y4Lq3EqSGi9bc5jxJ8Sy66rhFvj_K6JHUcPcgW5F9UxQ/s800-rw/(%20Anhpng.com)%20-%20N%E1%BB%80N%20S%C3%81CH%20(64).jpg');
+}
+.logo {
+  font-size: 35px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  padding: 8px 12px;
+  width: 600px;
+  height:50px;
+  transition: all 0.3s ease;
+  margin-top: 15px;
+  margin-left: 250px;
+}
+
+.search-container:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.search-container .icon {
+  color: #888;
+  margin-right: 8px;
+  font-size: 16px;
+}
+
+.search-container input[type="text"] {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  font-size: 16px;
+  color: #16191a;
+}
+.shopping {
+    padding:22px;
+    cursor:pointer;
+    font-size: 18px;
+    color:black; 
+}
+.shopping a {
+  text-decoration: none;
+  color:black;
+}
+.login {
+  padding:15px;
+  cursor:pointer;
+  font-size: 18px;
+  margin-left: 700px;
+}
+.login a {
+  text-decoration:none ;
+  color:black;
+}
+.login button {
+  color:white;
+  background-color: #33b5e5;
+  padding:10px;
+  cursor:pointer;
+}
+nav ul li a{
+  font-size: 20px;
+}
+nav ul {
+  display :flex;
+  gap:30px;
+  justify-content: center;
+  padding:20px;
+  background-color: #33b5e5;
+  list-style: none;
+  font-size: 20px;
+}
+ul li a {
+  text-decoration:none ;
+  color:white;
+  font-size: 15px;
+}
+nav ul li a:hover {
+background-color:#14549c;
+padding:10px;
+}
+.document {
+  border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    font-size: 15px;
+    margin-top: 25px;
+}
+.main-wrap {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.wrap {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  width: 280px;
+  text-align: center; 
+}
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="support">
+        <div class="tell">
+          <i class="fa-solid fa-phone"></i>
+          <div>Tel:0123456789-Phone:1800.6575</div>
+          <span>(Thời gian hỗ trợ từ 7h đến 22h)</span>
+        </div>
+      </div>
+      <header>
+        <div class="logo">
+          <h1>EDUHIGHT</h1>
+        </div>
+    
+        <div class="search-container">
+          <i class="fas fa-search icon"></i>
+          <input type="text" placeholder="Tìm tài liệu...">
+        </div>
+        <div class="login">
+          <i class="fa-solid fa-circle-user"></i>
+          <a href="login.html"><span>Đăng nhập</span></a>
+        </div>
+        <div class="shopping">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <a href="my_shopping_cart.html"><span>Giỏ hàng của tôi</span></a>
+        </div>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="#">Trang chủ</a></li>
+          <li> <a href="#">Tài liệu</a></li>
+          <li> <a href="#">Báo cáo </a></li>
+          <li> <a href="#">Đồ án </a></li>
+          <li> <a href="#">Đăng Tài Liệu </a></li>
+          <li> <a href="#">Sách </a></li>
+          <li> <a href="#">Nạp tiền </a></li>
+        </ul>
+      </nav>
+      <div class="document">
+        <div class="letter-document">
+          <div class="writen">
+            <h2> Tài liệu</h2>
+            <a href="#">Xem tất cả</a>
+          </div>
+        </div>
+        <div class="main-wrap">
+        <div class="wrap">
+          <img
+            src="https://toanmath.com/wp-content/uploads/2025/04/de-hoc-ky-2-toan-12-nam-2024-2025-truong-nguyen-binh-khiem-ha-noi.png"
+            alt="Tiếng Anh lớp 11" height="250px">
+          <div class="book-title">Đề thi môn Toán lớp 12 tỉnh Khánh Hòa 2025 lần thứ 1 có đáp án</div>
+       
+          <div><span class="price">
+              <span> Giá:10.000đ</span></div>
+          </span>
+          <div class="sold">Đã bán: 15 bài</div>
+       
+              
+          <button class="details-btn">Thêm vào giỏ hàng</button>
+        </div>
+          <div class="wrap">
+            <img
+              src="https://toanmath.com/wp-content/uploads/2025/04/de-thi-thu-tot-nghiep-thpt-nam-2025-mon-toan-so-gddt-lao-cai.png"
+             height="250px">
+            <div class="book-title">Đề thi thử tốt nghiệp THPT năm 2025 môn Toán sở GD&ĐT Lào Cai</div>
+            <div><span class="price">
+                <span> Giá:10.000đ</span></div>
+            </span>
+            <div class="sold">Đã bán: 15 bài</div>
+            <button class="details-btn">Thêm vào giỏ hàng</button>
+          </div>
+          <div class="wrap">
+            <img
+              src="https://toanmath.com/wp-content/uploads/2025/04/de-hoc-ky-2-toan-12-nam-2024-2025-truong-nguyen-binh-khiem-ha-noi.png"
+             height="250px">
+            <div class="book-title">Đề học kỳ 2 Toán 12 năm 2024 – 2025 trường Nguyễn Bỉnh Khiêm – Hà Nội</div>
+            <div><span class="price">
+                <span> Giá:10.000đ</span></div>
+            </span>
+            <div class="sold">Đã bán: 15 bài</div>
+            <button class="details-btn">Thêm vào giỏ hàng</button>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
